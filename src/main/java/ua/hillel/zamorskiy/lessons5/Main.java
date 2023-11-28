@@ -10,7 +10,7 @@ Scanner scanner = new Scanner(System.in);
         String intPlayer=(scanner.nextLine());
 
 int intPlayer1=0;
-        System.out.println("Введите значение для первого игрока ");
+        System.out.println("Введите значение для 1 игрока ");
 
         if (scanner.hasNextInt()) {
             intPlayer1= scanner.nextInt();
@@ -20,7 +20,7 @@ int intPlayer1=0;
             System.exit(0);
         }
         int intPlayer2=0;
-        System.out.println("Введите значение для первого игрока ");
+        System.out.println("Введите значение для 2 игрока ");
 
         if (scanner.hasNextInt()) {
             intPlayer2= scanner.nextInt();
@@ -30,7 +30,7 @@ int intPlayer1=0;
             System.exit(0);
         }
         int intPlayer3=0;
-        System.out.println("Введите значение для первого игрока ");
+        System.out.println("Введите значение для 3  игрока ");
 
         if (scanner.hasNextInt()) {
             intPlayer3= scanner.nextInt();
@@ -40,7 +40,7 @@ int intPlayer1=0;
             System.exit(0);
         }
         int intPlayer4=0;
-        System.out.println("Введите значение для первого игрока ");
+        System.out.println("Введите значение для 4 игрока ");
 
         if (scanner.hasNextInt()) {
             intPlayer4= scanner.nextInt();
@@ -50,7 +50,7 @@ int intPlayer1=0;
             System.exit(0);
         }
         int intPlayer5=0;
-        System.out.println("Введите значение для первого игрока ");
+        System.out.println("Введите значение для 5 игрока ");
 
         if (scanner.hasNextInt()) {
             intPlayer5= scanner.nextInt();
