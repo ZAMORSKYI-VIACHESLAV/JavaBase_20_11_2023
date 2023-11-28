@@ -1,0 +1,53 @@
+Index: src/main/java/ua/hillel/zamorskiy/lessons5/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/ua/hillel/zamorskiy/lessons5/Main.java b/src/main/java/ua/hillel/zamorskiy/lessons5/Main.java
+--- a/src/main/java/ua/hillel/zamorskiy/lessons5/Main.java	(revision 774545dfefb4460902c35d1075e8f7b5c94f3361)
++++ b/src/main/java/ua/hillel/zamorskiy/lessons5/Main.java	(revision a54c72f64d8e340415fa0698dcaf4ceaf1afec27)
+@@ -10,7 +10,7 @@
+         String intPlayer=(scanner.nextLine());
+ 
+ int intPlayer1=0;
+-        System.out.println("Введите значение для первого игрока ");
++        System.out.println("Введите значение для 1 игрока ");
+ 
+         if (scanner.hasNextInt()) {
+             intPlayer1= scanner.nextInt();
+@@ -20,7 +20,7 @@
+             System.exit(0);
+         }
+         int intPlayer2=0;
+-        System.out.println("Введите значение для первого игрока ");
++        System.out.println("Введите значение для 2 игрока ");
+ 
+         if (scanner.hasNextInt()) {
+             intPlayer2= scanner.nextInt();
+@@ -30,7 +30,7 @@
+             System.exit(0);
+         }
+         int intPlayer3=0;
+-        System.out.println("Введите значение для первого игрока ");
++        System.out.println("Введите значение для 3  игрока ");
+ 
+         if (scanner.hasNextInt()) {
+             intPlayer3= scanner.nextInt();
+@@ -40,7 +40,7 @@
+             System.exit(0);
+         }
+         int intPlayer4=0;
+-        System.out.println("Введите значение для первого игрока ");
++        System.out.println("Введите значение для 4 игрока ");
+ 
+         if (scanner.hasNextInt()) {
+             intPlayer4= scanner.nextInt();
+@@ -50,7 +50,7 @@
+             System.exit(0);
+         }
+         int intPlayer5=0;
+-        System.out.println("Введите значение для первого игрока ");
++        System.out.println("Введите значение для 5 игрока ");
+ 
+         if (scanner.hasNextInt()) {
+             intPlayer5= scanner.nextInt();
