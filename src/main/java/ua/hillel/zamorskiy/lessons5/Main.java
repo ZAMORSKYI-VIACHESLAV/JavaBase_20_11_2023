@@ -132,12 +132,19 @@ int intPlayer1=0;
 
             if (team1 < team2)
             {
-                 System.out.println("Одержала победу команда" + team2+ Player);
+                 System.out.println("Одержала победу команда  " + team2  + Player);
             }
             if (team1 > team2) {
-                System.out.println("Одержала победу команда" + team1+ intPlayer);
+                System.out.println("Одержала победу команда  " + team1  + intPlayer);
             }
+        if (team1 == team2)
+        {
+            System.out.println("Ничья");
         }
+
+        }
+
+        
 
 
 
